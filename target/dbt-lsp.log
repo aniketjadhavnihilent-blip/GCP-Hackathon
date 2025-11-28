@@ -416,3 +416,21 @@
 16:07:11.993448 [debug]: Incremental compilation - 1 nodes selected: {"model.GCP-Hackathon.load_sales"}
 16:07:12.456362 [info ]: Running Load Data from GCS CSV ["gs://supermarket_roster/raw/sales_data_3years.csv"] to table `gcp-hackathon-478810.roster.sales_history`
 16:07:12.592461 [info ]: Cached model count updated: 16 models (accurate)
+16:23:51.890893 [info ]: Cached model count updated: 16 models (estimate)
+16:23:52.659746 [info ]: Cached model count updated: 16 models (estimate)
+16:23:52.790752 [info ]: Running Load Data from GCS CSV ["gs://supermarket_roster/raw/assignments_history.csv"] to table `gcp-hackathon-478810.roster.assignments_history`
+16:23:52.792942 [info ]: Running Load Data from GCS CSV ["gs://supermarket_roster/raw/availability.csv"] to table `gcp-hackathon-478810.roster.availability`
+16:23:52.793831 [info ]: Running Load Data from GCS CSV ["gs://supermarket_roster/raw/demand.csv"] to table `gcp-hackathon-478810.roster.demand`
+16:23:52.794603 [info ]: Running Load Data from GCS CSV ["gs://supermarket_roster/raw/employees.csv"] to table `gcp-hackathon-478810.roster.employees`
+16:23:52.795496 [info ]: Running Load Data from GCS CSV ["gs://supermarket_roster/raw/sales_data_3years.csv"] to table `gcp-hackathon-478810.roster.sales_history`
+16:23:52.796699 [info ]: Running Load Data from GCS CSV ["gs://supermarket_roster/raw/shift_defs.csv"] to table `gcp-hackathon-478810.roster.shift_defs`
+16:23:52.827140 [info ]: Cached model count updated: 16 models (accurate)
+16:23:53.278341 [info ]: Running Load Data from GCS CSV ["gs://supermarket_roster/raw/demand.csv"] to table `gcp-hackathon-478810.roster.demand`
+16:23:53.278615 [info ]: Running Load Data from GCS CSV ["gs://supermarket_roster/raw/shift_defs.csv"] to table `gcp-hackathon-478810.roster.shift_defs`
+16:23:53.278716 [info ]: Running Load Data from GCS CSV ["gs://supermarket_roster/raw/availability.csv"] to table `gcp-hackathon-478810.roster.availability`
+16:23:53.278793 [info ]: Running Load Data from GCS CSV ["gs://supermarket_roster/raw/sales_data_3years.csv"] to table `gcp-hackathon-478810.roster.sales_history`
+16:23:53.278814 [info ]: Running Load Data from GCS CSV ["gs://supermarket_roster/raw/employees.csv"] to table `gcp-hackathon-478810.roster.employees`
+16:23:53.279066 [info ]: Running Load Data from GCS CSV ["gs://supermarket_roster/raw/assignments_history.csv"] to table `gcp-hackathon-478810.roster.assignments_history`
+16:23:54.605515 [error]: dbt0407: Comparison failed: Comparison between STRING and INT64 with = operator is not supported
+  --> models\marts\roster_features.sql:26:35
+16:23:54.648768 [info ]: Cached model count updated: 16 models (accurate)
